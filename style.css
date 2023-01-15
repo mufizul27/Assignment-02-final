@@ -1,0 +1,279 @@
+:root {
+  --black: #1c1c1c;
+  --gray: #919191;
+  --light-gray: #ebebeb;
+  --hot-pink: #ff214f;
+  --primary-font: "Roboto", sans-serif;
+}
+
+body {
+  background: rgba(255, 144, 14, 0.1);
+  font-family: var(--primary-font);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 25px;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.container-new {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  font-family: 'Work Sans';
+  text-align: center;
+  font-style: normal;
+  /* font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+   */
+}
+
+.header-title {
+
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 55px;
+
+}
+
+.button {
+  background-color: #FFA500;
+
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 180px;
+  height: 50px;
+  margin-top: 60px;
+  opacity: var(--hot-pink);
+
+}
+
+
+.side-button {
+  background-color: #FFA500;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  opacity: var(--hot-pink);
+  border-radius: 10px;
+  margin-right: 90px;
+
+}
+
+h2 {
+
+  margin-right: 70px;
+  text-align: center;
+
+}
+
+.text {
+  margin-right: 70px;
+  text-align: center;
+
+
+}
+
+.box.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.banner-cen {
+  align-items: center;
+  justify-items: center;
+  height: 580px;
+  width: 1560px;
+
+}
+
+.middle-img {
+
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-start: span;
+  gap: 0;
+ 
+}
+
+.team-pic {
+
+  height: 200px;
+  width: 200px;
+
+}
+
+.p1 {
+  font-size: 16px;
+
+}
+
+.team-pic {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-end;
+  justify-items: baseline;
+  margin-left: 400px;
+  margin-right: 250px;
+  margin-bottom: 200px;
+ 
+
+}
+
+.side-pic {
+
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  align-items: flex-end;
+  justify-items: right;
+  text-align: right;
+  margin-left: 600px;
+  margin-top: 200px;
+}
+
+.text {
+  text-align: right;
+
+
+}
+
+
+/* .second-feature-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+} */
+
+
+.second-feature-work-title {
+  color: #131313;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 60px;  
+  margin-top: 30px; 
+  align-items: center;
+}
+.second-feature-work-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 60px;
+  align-items: center;
+}
+ .second-feature-title-description{
+  margin-top: 200px;
+  margin-left: 70px;
+  align-items: center;
+ 
+ }
+  .second-feature-title{
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+   
+  }
+.second-feature-image img {
+  width: 50%;
+  height: 60%;
+  margin-left: 900px;
+  
+
+}
+
+.experience-btn {
+  background: #FF900E;
+  color: #FFFFFF;
+  border: 0;
+  position: absolute;
+  left: 500px;
+  top: 2000px;
+  border-radius: 8px;
+}
+.experience-btn .btn-written {
+  padding: 25px;
+  /* margin-left: 600px; */
+}
+
+.experience-btn .btn-written h3 {
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 65px;
+  /* margin-left: 600px; */
+}
+
+.experience-btn .btn-written p {
+  font-weight: 500;
+  font-size: 25px;
+  /* margin-left: 600px; */
+}
+
+.experience{
+  margin-top: 400px;
+}
+
+  .second-feature-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-items: center;
+  }
+
+
+
+/* .second-feature-title{
+ second-feature-title-description
+  margin-top: 20px;
+  margin-left: 45px;
+
+} */
